@@ -1,13 +1,23 @@
-.container {
+/* .container {
   display: inline-flex;
+  align-items: center;
   width: 100vw;
-}
+} */
 .nav_logo {
   text-align: center;
 }
 .navItems {
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  list-style: none;
   width: 100vw;
+}
+#open_nav_btn,
+#close_nav_btn {
+  width: 25px;
+  height: 25px;
+}
+.avatar img {
+  width: 50px;
+  height: auto;
 }

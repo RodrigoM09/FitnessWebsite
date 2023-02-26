@@ -10,7 +10,7 @@
                 <li><a href="/views/login.php">Login</a></li>
                 <li class="nav_profile">
                     <div class="avatar">
-                        <img src="/images/avatar1.jpg" alt="">
+                        <img src="/images/avatar1.png" alt="">
                     </div>
                     <ul>
                         <li><a href="/views/dashboard.php">Dashoboard</a></li>
@@ -18,8 +18,8 @@
                     </ul>
                 </li>
             </ul>
-            <button id="open_nav_btn"></button>
-            <button id="open_nav_btn"></button>
+            <button id="open_nav_btn"><i class='bx bx-menu'></i></button>
+            <button id="close_nav_btn"><i class='bx bx-x' ></i></button>
 
         </div>
 </nav>
