@@ -42,6 +42,7 @@ GENERAL
   appearance: none;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -119,25 +120,7 @@ img {
   transition: var(--transition);
   color: var(--color-white);
 }
-/* 
-===========================================================================
-                            TABLET MEDIA QUERY
-===========================================================================
-*/
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  h2 {
-    font-size: 1.6rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-  h5 {
-    font-size: 0.8rem;
-  }
-}
+
 /* 
 ===========================================================================
                             Form Styling
@@ -201,4 +184,35 @@ select {
 
 .form_section small a {
   color: var(--color-primary);
+}
+
+/* 
+===========================================================================
+                            MEDIUM DEVICE MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+}
+
+/* 
+===========================================================================
+                            SMALL DEVICE MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 600px) {
+  .form_section_container {
+    padding: 3rem;
+  }
 }

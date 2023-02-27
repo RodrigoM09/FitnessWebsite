@@ -1,6 +1,7 @@
 .search_bar {
   margin-top: 7rem;
 }
+
 .search_bar_container {
   position: relative;
   width: 30rem;
@@ -26,13 +27,14 @@
   padding: 0.5rem 0;
   width: 100%;
 }
+
 .search_bar input::placeholder {
   color: var(--color-gray-300);
 }
 
 /* 
 ===========================================================================
-                            TABLET MEDIA QUERY
+                            MEDIUM DEVICE MEDIA QUERY
 ===========================================================================
 */
 @media screen and (max-width: 1024px) {
@@ -40,9 +42,10 @@
     width: 60%;
   }
 }
+
 /* 
 ===========================================================================
-                            TABLET MEDIA QUERY
+                            SMALL DEVICE MEDIA QUERY
 ===========================================================================
 */
 @media screen and (max-width: 600px) {
