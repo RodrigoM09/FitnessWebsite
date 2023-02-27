@@ -1,0 +1,5 @@
+.empty_page {
+  height: 70vh;
+  display: grid;
+  place-content: center;
+}

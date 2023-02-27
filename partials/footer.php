@@ -10,18 +10,18 @@
         <article>
             <h4>Categories</h4>
             <ul>
-                <li><a href="">Health</a></li>
-                <li><a href="">Weights</a></li>
-                <li><a href="">Technology</a></li>
-                <li><a href="">Nutrition</a></li>
-                <li><a href="">Studies</a></li>
+                <li><a href="/views/category_posts.php">Health</a></li>
+                <li><a href="/views/category_posts.ph">Weights</a></li>
+                <li><a href="/views/category_posts.ph">Technology</a></li>
+                <li><a href="/views/category_posts.ph">Nutrition</a></li>
+                <li><a href="/views/category_posts.ph">Studies</a></li>
             </ul>
         </article>
                 <article>
             <h4>Contact us</h4>
             <ul>
-                <li><a href="">Message</a></li>
-                <li><a href="">Email</a></li>
+                <li><a href="/views/contact.php">Message</a></li>
+                <li><a href ="mailto: rodrigo.nmn.marquez@gmail.com" target="_blank">Email</a></li>
                 <li><a href="">Location</a></li>
             </ul>
         </article>
@@ -38,11 +38,11 @@
                 <article>
             <h4>Permalinks</h4>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Clients</a></li>
-                <li><a href="">Trainers</a></li>
-                <li><a href="">Nutrition</a></li>
-                <li><a href="">Fitness</a></li>
+                <li><a href="/views/index.php">Home</a></li>
+                <li><a href="/views/clients.php">Clients</a></li>
+                <li><a href="/views/trainers.php">Trainers</a></li>
+                <li><a href="/views/nutrition.php">Nutrition</a></li>
+                <li><a href="/views/fitness.php">Fitness</a></li>
             </ul>
         </article>
         <div class="footer_copyright">

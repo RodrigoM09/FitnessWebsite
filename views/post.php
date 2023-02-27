@@ -6,7 +6,7 @@
     <?php require('../partials/navbar.php') ?>
 <!------------------------------------NAVBAR PARTIAL----------------------------->
 <section class="singlepost">
-    <div class="container singlepost_container">
+    <div class="container single_post_container">
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, itaque.</h2>
         <div class="post_author">
             <div class="post_author_avatar">
