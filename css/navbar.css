@@ -53,17 +53,20 @@ nav button {
   opacity: 0;
   transition: var(--transition);
 }
+
 /* Show Nav on Hover */
 .nav_profile:hover > ul {
   visibility: visible;
   opacity: 1;
 }
+
 .nav_profile ul li a {
   padding: 1rem;
   background: var(--color-gray-900);
   display: block;
   width: 100%;
 }
+
 .nav_profile ul li:last-child a {
   background: var(--color-red);
   color: var(--color-bg);
@@ -85,9 +88,11 @@ nav button {
   nav button#close_nav_btn {
     display: none;
   }
+
   .nav_container {
     position: relative;
   }
+
   .nav_items {
     position: absolute;
     flex-direction: column;
@@ -98,7 +103,9 @@ nav button {
     text-align: center;
     justify-content: center;
     gap: 0;
+    display: none;
   }
+
   .nav_items li {
     width: 100%;
     height: 4.5rem;
@@ -108,7 +115,21 @@ nav button {
     background: var(--color-gray-900);
     border-top: 1px solid var(--color-bg);
     color: var(--color-white);
+    /* animation: animateMenu 4s 0 forwards;
+    opacity: 0; */
   }
+
+  /* NAV Animation */
+  /* @keyframes animateMenu {
+    0% {
+      transform: rotateX(90deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+  } */
+
   .nav_items li a {
     border-radius: 0;
     width: 100%;
@@ -117,5 +138,16 @@ nav button {
     padding: 0 2rem;
     display: flex;
     align-items: center;
+  }
+
+  .nav_profile {
+    background: var(--color-gray-900);
+  }
+  .nav_profile ul {
+    top: 100%;
+    width: 100%;
+  }
+  .nav_profile .avatar {
+    margin-left: 2rem;
   }
 }

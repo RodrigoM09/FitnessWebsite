@@ -1,6 +1,10 @@
+<!------------------------------------HEAD PARTIAL----------------------------->
 <?php require('../partials/head.php') ?>
+<!------------------------------------HEAD PARTIAL----------------------------->
 <body>
+<!------------------------------------NAVBAR PARTIAL----------------------------->
     <?php require('../partials/navbar.php') ?>
+<!------------------------------------NAVBAR PARTIAL----------------------------->
     <section class="featured">
         <div class="container featured_container">
             <div class="post_thumbnail">
@@ -126,6 +130,13 @@
         </div>
     </section>
 <!------------------------------------CATEGORY BUTTONS----------------------------->
+
+<!------------------------------------FOOTER PARTIAL----------------------------->
     <?php require('../partials/footer.php') ?>
+<!------------------------------------FOOTER PARTIAL----------------------------->
+
+<!------------------------------------SCRIPT PARTIAL----------------------------->
+    <?php require('../partials/script.php') ?>
+<!------------------------------------SCRIPT PARTIAL----------------------------->
 </body>
 </html>
