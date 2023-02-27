@@ -101,3 +101,22 @@ img {
   width: 100%;
   object-fit: cover;
 }
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+}

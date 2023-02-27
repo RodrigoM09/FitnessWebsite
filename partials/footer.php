@@ -12,7 +12,7 @@
             <ul>
                 <li><a href="">Health</a></li>
                 <li><a href="">Weights</a></li>
-                <li><a href="">Technology</a><</li>
+                <li><a href="">Technology</a></li>
                 <li><a href="">Nutrition</a></li>
                 <li><a href="">Studies</a></li>
             </ul>
@@ -21,7 +21,7 @@
             <h4>Contact us</h4>
             <ul>
                 <li><a href="">Message</a></li>
-                <li><a href="">Email</a><</li>
+                <li><a href="">Email</a></li>
                 <li><a href="">Location</a></li>
             </ul>
         </article>
@@ -30,7 +30,7 @@
             <ul>
                 <li><a href="">Health</a></li>
                 <li><a href="">Weights</a></li>
-                <li><a href="">Technology</a><</li>
+                <li><a href="">Technology</a></li>
                 <li><a href="">Nutrition</a></li>
                 <li><a href="">Studies</a></li>
             </ul>
@@ -40,7 +40,7 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Clients</a></li>
-                <li><a href="">Trainers</a><</li>
+                <li><a href="">Trainers</a></li>
                 <li><a href="">Nutrition</a></li>
                 <li><a href="">Fitness</a></li>
             </ul>
