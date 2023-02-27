@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/Universal.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <!-- BOXICONS CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- GOOGLE FONTS ------------>
