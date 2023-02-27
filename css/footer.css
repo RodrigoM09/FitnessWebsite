@@ -59,3 +59,21 @@ footer ul a:hover {
   border-top: 1px solid var(--color-bg);
   margin-top: 4rem;
 }
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 1024px) {
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 600px) {
+ 
+}

@@ -87,3 +87,41 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 1024px) {
+  .featured_container {
+    gap: 3rem;
+  }
+  .posts_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+/*
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 600px) {
+  section {
+    margin-top: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .featured {
+    margin-top: 6rem;
+  }
+  .featured_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .posts_container {
+    grid-template-columns: 1fr;
+    
+  }
+}
