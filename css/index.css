@@ -124,4 +124,8 @@
     grid-template-columns: 1fr;
     
   }
+
+  .category_buttons_container{
+    grid-template-columns: 1fr 1fr;
+  }
 }

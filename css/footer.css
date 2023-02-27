@@ -75,5 +75,7 @@ footer ul a:hover {
 ===========================================================================
 */
 @media screen and (max-width: 600px) {
- 
+ .footer_container {
+    grid-template-columns: 1fr;
+ }
 }

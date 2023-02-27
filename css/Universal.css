@@ -103,6 +103,21 @@ img {
 }
 /* 
 ===========================================================================
+                                BUTTON STYLES
+===========================================================================
+*/
+.btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--color-primary);
+  border-radius: var(--card-border-radius-2);
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--color-white);
+}
+/* 
+===========================================================================
                             TABLET MEDIA QUERY
 ===========================================================================
 */

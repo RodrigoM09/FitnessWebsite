@@ -1,0 +1,52 @@
+.search_bar {
+  margin-top: 7rem;
+}
+.search_bar_container {
+  position: relative;
+  width: 30rem;
+  background: var(--color-gray-900);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0.6rem 1rem;
+  border-radius: var(--card-border-radius-2);
+  color: var(--color-gray-300);
+}
+
+.search_bar_container > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search_bar input {
+  background: transparent;
+  margin-left: 0.7rem;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+.search_bar input::placeholder {
+  color: var(--color-gray-300);
+}
+
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 1024px) {
+  .search_bar_container {
+    width: 60%;
+  }
+}
+/* 
+===========================================================================
+                            TABLET MEDIA QUERY
+===========================================================================
+*/
+@media screen and (max-width: 600px) {
+  .search_bar_container {
+    width: 88%;
+  }
+}
