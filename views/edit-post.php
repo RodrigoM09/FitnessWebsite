@@ -8,28 +8,29 @@
 <div class="flex_container">
     <section class="form_section">
         <div class="container form_section-container">
-            <h1>Add User</h1>
+            <h1>Edit Post</h1>
             <div class="alert_message error">
                 <p>This is an error message</p>
             </div>
             <form action="" enctype="multipart/form-data">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="UserName">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Create Password">
-                <input type="text" placeholder="Confirm Password">
-                <textarea rows="10" placeholder="Description"></textarea>
+                <input type="text" placeholder="Title">
                 <select>
-                    <option value="0">Client</option>
-                    <option value="1">Trainer</option>
-                    <option value="2">Author</option>
+                    <option value="1">Health</option>
+                    <option value="1">Weights</option>
+                    <option value="1">Technology</option>
+                    <option value="1">Nutrition</option>
+                    <option value="1">Studies</option>
                 </select>
-                <div class="form_control">
-                    <label for="avatar">User Avatar</label>
-                    <input type="file" id="avatar">
+                <textarea rows="10" placeholder="Body"></textarea>
+                <div class="form_control inline">
+                    <input type="checkbox" id="is_featured" checked>
+                    <label for="is_featured" checked>Featured</label>
                 </div>
-                <button type="submit" class="btn">Add User</button>
+                <div class="form_control">
+                    <label for="thumbnail">Update Thumbnail</label>
+                    <input type="file" id="thumbnail">
+                </div>
+                <button type="submit" class="btn">Update Post</button>
             </form>
         </div>
     </section>

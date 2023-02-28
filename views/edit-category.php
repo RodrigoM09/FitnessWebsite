@@ -8,29 +8,11 @@
 <div class="flex_container">
     <section class="form_section">
         <div class="container form_section-container">
-            <h1>Add Post</h1>
-            <div class="alert_message error">
-                <p>This is an error message</p>
-            </div>
-            <form action="" enctype="multipart/form-data">
+            <h1>Edit Category</h1>
+            <form action="">
                 <input type="text" placeholder="Title">
-                <select>
-                    <option value="1">Health</option>
-                    <option value="1">Weights</option>
-                    <option value="1">Technology</option>
-                    <option value="1">Nutrition</option>
-                    <option value="1">Studies</option>
-                </select>
-                <textarea rows="10" placeholder="Body"></textarea>
-                <div class="form_control inline">
-                    <input type="checkbox" id="is_featured" checked>
-                    <label for="is_featured">Featured</label>
-                </div>
-                <div class="form_control">
-                    <label for="thumbnail">Add Thumbnail</label>
-                    <input type="file" id="thumbnail">
-                </div>
-                <button type="submit" class="btn">Add Post</button>
+                <textarea rows="4" placeholder="Description"></textarea>
+                <button type="submit" class="btn">Update Category</button>
             </form>
         </div>
     </section>

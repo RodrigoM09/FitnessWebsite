@@ -8,28 +8,25 @@
 <div class="flex_container">
     <section class="form_section">
         <div class="container form_section-container">
-            <h1>Add User</h1>
-            <div class="alert_message error">
-                <p>This is an error message</p>
-            </div>
+            <h1>Edit User</h1>
             <form action="" enctype="multipart/form-data">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="UserName">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Create Password">
-                <input type="text" placeholder="Confirm Password">
-                <textarea rows="10" placeholder="Description"></textarea>
+                <input type="text" placeholder="Change First Name">
+                <input type="text" placeholder="Change Last Name">
+                <input type="text" placeholder="Change Username">
+                <input type="text" placeholder=" Change Email">
+                <input type="text" placeholder="New Password">
+                <input type="text" placeholder="Confirm New Password">
+                <textarea rows="10" placeholder="Update Description"></textarea>
                 <select>
                     <option value="0">Client</option>
                     <option value="1">Trainer</option>
                     <option value="2">Author</option>
                 </select>
                 <div class="form_control">
-                    <label for="avatar">User Avatar</label>
+                    <label for="avatar">Change Avatar</label>
                     <input type="file" id="avatar">
                 </div>
-                <button type="submit" class="btn">Add User</button>
+                <button type="submit" class="btn">Update User</button>
             </form>
         </div>
     </section>
