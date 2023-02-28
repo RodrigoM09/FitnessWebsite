@@ -8,7 +8,7 @@
 <div class="flex_container">
     <section class="form_section">
         <div class="container form_section-container">
-            <h1>Sign Up</h1>
+            <h1>Add User</h1>
             <div class="alert_message error">
                 <p>This is an error message</p>
             </div>
@@ -19,6 +19,12 @@
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Create Password">
                 <input type="text" placeholder="Confirm Password">
+                <textarea rows="10" placeholder="Description"></textarea>
+                <select>
+                    <option value="0">Trainer</option>
+                    <option value="1">Client</option>
+                    <option value="2">Author</option>
+                </select>
                 <div class="form_control">
                     <label for="" class="avatar"></label>
                     <input type="file" name="avatar" id="avatar">

@@ -8,23 +8,29 @@
 <div class="flex_container">
     <section class="form_section">
         <div class="container form_section-container">
-            <h1>Sign Up</h1>
+            <h1>Add Post</h1>
             <div class="alert_message error">
                 <p>This is an error message</p>
             </div>
             <form action="" enctype="multipart/form-data">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="UserName">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Create Password">
-                <input type="text" placeholder="Confirm Password">
-                <div class="form_control">
-                    <label for="" class="avatar"></label>
-                    <input type="file" name="avatar" id="avatar">
+                <input type="text" placeholder="Title">
+                <select>
+                    <option value="1">Health</option>
+                    <option value="1">Weights</option>
+                    <option value="1">Technology</option>
+                    <option value="1">Nutrition</option>
+                    <option value="1">Studies</option>
+                </select>
+                <textarea rows="10" placeholder="Body"></textarea>
+                <div class="form_control inline">
+                    <input type="checkbox" id="is_featured">
+                    <label for="is_featured" checked>Featured</label>
                 </div>
-                <button type="submit" class="btn">Sign Up!</button>
-                <small>Already have an account?<a href="signin.php"> Sign In</a></small>
+                <div class="form_control">
+                    <label for="thumbnail">Add Thumbnail</label>
+                    <input type="file" id="thumbnail">
+                </div>
+                <button type="submit" class="btn">Add Post</button>
             </form>
         </div>
     </section>
