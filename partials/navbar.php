@@ -8,7 +8,7 @@
                 <li><a href="/views/nutrition.php">Nutrition</a></li>
                 <li><a href="/views/fitness.php">Fitness</a></li>
                 <li><a href="/views/blog.php">Blog</a></li>
-                <li><a href="/views/login.php">Login</a></li>
+                <li><a href="/views/signin.php">Login</a></li>
                 <li class="nav_profile">
                     <div class="avatar">
                         <img src="/images/avatar1.png" alt="">

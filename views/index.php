@@ -121,12 +121,12 @@
 <!------------------------------------CATEGORY BUTTONS----------------------------->
     <section class="category_buttons">
         <div class="container category_buttons_container">
-            <a href="" class="category_button">Category</a>
-            <a href="" class="category_button">Health</a>
-            <a href="" class="category_button">Weights</a>
-            <a href="" class="category_button">Technology</a>
-            <a href="" class="category_button">Nutrition</a>
-            <a href="" class="category_button">Studies</a>
+            <a href="/views/category_posts.php" class="category_button">All Categories</a>
+            <a href="/views/category_posts.php" class="category_button">Health</a>
+            <a href="/views/category_posts.php" class="category_button">Fitness</a>
+            <a href="/views/category_posts.php" class="category_button">Technology</a>
+            <a href="/views/category_posts.php" class="category_button">Nutrition</a>
+            <a href="/views/category_posts.php" class="category_button">Studies</a>
         </div>
     </section>
 <!------------------------------------CATEGORY BUTTONS----------------------------->

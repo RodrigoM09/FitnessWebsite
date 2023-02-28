@@ -16,7 +16,7 @@
                         <h5>Add Post</h5>
                 </a></li>
                 <li>
-                    <a href="dashboard.php"><i class='bx bxs-dashboard'></i>
+                    <a href="dashboard.php" class="active"><i class='bx bxs-dashboard'></i>
                         <h5>Manage Posts</h5>
                 </a></li>
                 <li>
@@ -32,54 +32,44 @@
                         <h5>Add Category</h5>
                 </a></li>
                 <li>
-                    <a href="manage-categories.php" class="active"><i class='bx bx-category'></i>
+                    <a href="manage-categories.php"><i class='bx bx-category'></i>
                         <h5>Manage Categories</h5>
                 </a></li>
             </ul>
         </aside>
         <main>
-            <h2>Manage Categories</h2>
+            <h2>Manage Posts</h2>
             <table>
                 <thead>
                     <tr>
                         <th>Title</th>
+                        <th>Category</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Health</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                        <td>lorem ipsum</td>
+                        <td><a href="edit-post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn sm danger">Delete</a></td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>Weights</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                        <td>lorem ipsum</td>
+                        <td><a href="edit-post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn sm danger">Delete</a></td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>Technology</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Nutrition</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Studies</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                        <td>lorem ipsum</td>
+                        <td><a href="edit-post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn sm danger">Delete</a></td>
                     </tr>
                 </tbody>
             </table>

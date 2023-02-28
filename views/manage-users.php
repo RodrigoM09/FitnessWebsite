@@ -24,7 +24,7 @@
                         <h5>Add User</h5>
                 </a></li>
                 <li>
-                    <a href="manage-users.php"><i class='bx bxs-user-account'></i>
+                    <a href="manage-user.php" class="active"><i class='bx bxs-user-account'></i>
                         <h5>Manage User</h5>
                 </a></li>
                 <li>
@@ -32,54 +32,48 @@
                         <h5>Add Category</h5>
                 </a></li>
                 <li>
-                    <a href="manage-categories.php" class="active"><i class='bx bx-category'></i>
+                    <a href="manage-categories.php"><i class='bx bx-category'></i>
                         <h5>Manage Categories</h5>
                 </a></li>
             </ul>
         </aside>
         <main>
-            <h2>Manage Categories</h2>
+            <h2>Manage Users</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Title</th>
+                        <th>Name</th>
+                        <th>Username</th>
                         <th>Edit</th>
                         <th>Delete</th>
+                        <th>Admin</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Health</td>
+                        <td>Armando Cruz</td>
+                        <td>Armandy</td>
                         <td><a href="edit-category.php" class="btn sm">Edit</a></td>
                         <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>No</td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>Weights</td>
+                        <td>Rodrigo Marquez</td>
+                        <td>rigo</td>
                         <td><a href="edit-category.php" class="btn sm">Edit</a></td>
                         <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>Yes</td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>Technology</td>
+                        <td>David Cruz</td>
+                        <td>Davey</td>
                         <td><a href="edit-category.php" class="btn sm">Edit</a></td>
                         <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Nutrition</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Studies</td>
-                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                        <td>No</td>
                     </tr>
                 </tbody>
             </table>

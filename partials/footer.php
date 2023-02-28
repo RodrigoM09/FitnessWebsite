@@ -11,10 +11,10 @@
             <h4>Categories</h4>
             <ul>
                 <li><a href="/views/category_posts.php">Health</a></li>
-                <li><a href="/views/category_posts.ph">Weights</a></li>
-                <li><a href="/views/category_posts.ph">Technology</a></li>
-                <li><a href="/views/category_posts.ph">Nutrition</a></li>
-                <li><a href="/views/category_posts.ph">Studies</a></li>
+                <li><a href="/views/category_posts.php">Weights</a></li>
+                <li><a href="/views/category_posts.php">Technology</a></li>
+                <li><a href="/views/category_posts.php">Nutrition</a></li>
+                <li><a href="/views/category_posts.php">Studies</a></li>
             </ul>
         </article>
                 <article>
@@ -28,11 +28,11 @@
                 <article>
             <h4>Blog</h4>
             <ul>
-                <li><a href="">Health</a></li>
-                <li><a href="">Weights</a></li>
-                <li><a href="">Technology</a></li>
-                <li><a href="">Nutrition</a></li>
-                <li><a href="">Studies</a></li>
+                <li><a href="/views/blog.php">Health</a></li>
+                <li><a href="/views/blog.php">Weights</a></li>
+                <li><a href="/views/blog.php">Technology</a></li>
+                <li><a href="/views/blog.php">Nutrition</a></li>
+                <li><a href="/views/blog.php">Studies</a></li>
             </ul>
         </article>
                 <article>
