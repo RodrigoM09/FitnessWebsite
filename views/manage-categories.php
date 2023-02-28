@@ -7,6 +7,8 @@
 <!------------------------------------NAVBAR PARTIAL----------------------------->
 <section class="dashboard">
     <div class="container dashboard_container">
+        <button id="show_sidebar_btn" class="sidebar_toggle"><i class='bx bxs-chevron-right'></i></button>
+        <button id="hide_sidebar_btn" class="sidebar_toggle"><i class='bx bxs-chevron-left'></i></button>
         <aside>
             <ul>
                 <li>
@@ -30,11 +32,58 @@
                         <h5>Add Category</h5>
                 </a></li>
                 <li>
-                    <a href="manage-categories.php"><i class='bx bx-category'></i>
+                    <a href="manage-categories.php" class="active"><i class='bx bx-category'></i>
                         <h5>Manage Categories</h5>
                 </a></li>
             </ul>
         </aside>
+        <main>
+            <h2>Manage Categories</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Health</td>
+                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Weights</td>
+                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Technology</td>
+                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Nutrition</td>
+                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Studies</td>
+                        <td><a href="edit-category.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.php" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
     </div>
 </section>
 <!------------------------------------FOOTER PARTIAL----------------------------->

@@ -96,15 +96,22 @@ h4 {
 a {
   color: var(--color-white) var(--transition);
 }
+
 p,
 small {
   color: var(--color-white);
 }
+
 img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
+
+td {
+  color: var(--color-white);
+}
+
 /* 
 ===========================================================================
                                 BUTTON STYLES
@@ -119,6 +126,20 @@ img {
   cursor: pointer;
   transition: var(--transition);
   color: var(--color-white);
+}
+
+.btn.sm {
+  padding: 0.3 0.7rem;
+  font-size: 0.8rem;
+}
+
+.btn.danger {
+  background: var(--color-red);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
 }
 
 /* 
@@ -139,6 +160,7 @@ img {
   margin-bottom: 17rem;
   margin-top: 5rem;
 }
+
 .alert_message {
   padding: 0.8rem 1.4rem;
   margin-bottom: 1rem;
@@ -149,6 +171,7 @@ img {
   background: var(--color-red-light);
   color: var(--color-red);
 }
+
 alert_message.success {
   background: var(--color-green-light);
   color: var(--color-green);
@@ -182,7 +205,7 @@ select {
 }
 
 input[type="checkbox"] {
-    appearance: checkbox !important;
+  appearance: checkbox !important;
 }
 
 .form_section small {
@@ -203,18 +226,23 @@ input[type="checkbox"] {
   .container {
     width: var(--container-width-md);
   }
+
   h2 {
     font-size: 1.6rem;
   }
+
   h3 {
     font-size: 1.2rem;
   }
+
   h5 {
     font-size: 0.8rem;
   }
+
   .form_section_container {
     padding: 3rem;
   }
+
 }
 
 /* 
@@ -226,4 +254,5 @@ input[type="checkbox"] {
   .form_section_container {
     padding: 0;
   }
+  
 }

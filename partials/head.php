@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/post.css">
     <link rel="stylesheet" href="/css/categoryposts.css">
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/manage-categories.css">
     <!-- BOXICONS CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- GOOGLE FONTS ------------>
