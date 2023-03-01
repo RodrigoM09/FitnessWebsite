@@ -29,7 +29,7 @@
 
 /* 
 ===========================================================================
-GENERAL
+                                GENERAL
 ===========================================================================
 */
 
@@ -242,7 +242,6 @@ input[type="checkbox"] {
   .form_section_container {
     padding: 3rem;
   }
-
 }
 
 /* 
@@ -254,5 +253,4 @@ input[type="checkbox"] {
   .form_section_container {
     padding: 0;
   }
-  
 }
