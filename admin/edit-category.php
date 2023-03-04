@@ -1,9 +1,9 @@
 <!------------------------------------HEAD PARTIAL----------------------------->
-<?php require('../partials/head.php') ?>
+<?php require('../admin/partials/header.php') ?>
 <!------------------------------------HEAD PARTIAL----------------------------->
 <body>
 <!------------------------------------NAVBAR PARTIAL----------------------------->
-    <?php require('../partials/navbar.php') ?>
+    <?php require('../admin/partials/navbar.php') ?>
 <!------------------------------------NAVBAR PARTIAL----------------------------->
 <div class="flex_container">
     <section class="form_section">
