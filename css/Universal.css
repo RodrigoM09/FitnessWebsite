@@ -65,6 +65,10 @@ section {
   width: 100vw;
 }
 
+.section_extra-margin{
+  margin-top: 7rem;
+}
+
 h1,
 h2,
 h3,
@@ -129,7 +133,7 @@ td {
 }
 
 .btn.sm {
-  padding: 0.3 0.7rem;
+  padding: 0.3rem 0.7rem;
   font-size: 0.8rem;
 }
 
@@ -172,9 +176,13 @@ td {
   color: var(--color-red);
 }
 
-alert_message.success {
+.alert_message.success {
   background: var(--color-green-light);
   color: var(--color-green);
+}
+
+.alert_message.lg {
+  text-align: center;
 }
 
 form {
