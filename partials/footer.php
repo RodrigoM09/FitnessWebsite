@@ -1,3 +1,4 @@
+
 <footer>
     <div class="footer_socials">
         <a href="https://youtube.com/" target="_blank"><i class='bx bxl-youtube' ></i></a>
