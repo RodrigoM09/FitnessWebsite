@@ -3,11 +3,11 @@
             <a href="index.php" class="nav_logo">The Temple</a>
             <ul class="nav_items">
                 <li><a href="<?= ROOT_URL?>views/index.php">Home</a></li>
-                <li><a href="<?= ROOT_URL?>views/clients.php">Clients</a></li>
-                <li><a href="<?= ROOT_URL?>views/trainers.php">Trainers</a></li>
                 <li><a href="<?= ROOT_URL?>views/nutrition.php">Nutrition</a></li>
                 <li><a href="<?= ROOT_URL?>views/fitness.php">Fitness</a></li>
                 <li><a href="<?= ROOT_URL?>views/blog.php">Blog</a></li>
+                <li><a href="<?= ROOT_URL?>views/clients.php">Clients</a></li>
+                <li><a href="<?= ROOT_URL?>views/trainers.php">Trainers</a></li>
                 <li><a href="<?= ROOT_URL?>views/signin.php">Login</a></li>
                 <li class="nav_profile">
                     <div class="avatar">

@@ -5,7 +5,11 @@
 <!------------------------------------NAVBAR PARTIAL----------------------------->
  <?php require('../partials/navbar.php') ?>
 <!------------------------------------NAVBAR PARTIAL----------------------------->
-<section class="dashboard">
+<section class="empty_page">
+    <h2>Trainers Page</h2>
+    <h1>Coming Soon...</h1>
+</section>
+<!-- <section class="dashboard">
     <div class="container dashboard_container">
         <button id="show_sidebar_btn" class="sidebar_toggle"><i class='bx bxs-chevron-right'></i></button>
         <button id="hide_sidebar_btn" class="sidebar_toggle"><i class='bx bxs-chevron-left'></i></button>
@@ -75,7 +79,7 @@
             </table>
         </main>
     </div>
-</section>
+</section> -->
 <!------------------------------------FOOTER PARTIAL----------------------------->
     <?php require('../partials/footer.php') ?>
 <!------------------------------------FOOTER PARTIAL----------------------------->

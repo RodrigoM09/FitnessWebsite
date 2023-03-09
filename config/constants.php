@@ -1,4 +1,4 @@
 <?php
-define('ROOT_URL', 'http://localhost/personaltrainersite/');
+define('ROOT_URL', 'http://localhost:3000/');
 
 ?>

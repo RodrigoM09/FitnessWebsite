@@ -6,7 +6,8 @@
  <?php require('../partials/navbar.php') ?>
 <!------------------------------------NAVBAR PARTIAL----------------------------->
 <section class="empty_page">
-    <h1>Clients Page</h1>
+    <h2>Clients Page</h2>
+    <h1>Coming Soon...</h1>
 </section>
 <!------------------------------------FOOTER PARTIAL----------------------------->
     <?php require('../partials/footer.php') ?>
