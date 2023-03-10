@@ -10,15 +10,15 @@ require '../config/database.php'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Temple</title>
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/Universal.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/blog.css">
-    <link rel="stylesheet" href="/css/post.css">
-    <link rel="stylesheet" href="/css/categoryposts.css">
-    <link rel="stylesheet" href="/css/empty-page.css">
-    <link rel="stylesheet" href="/css/manage-categories.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/index.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/navbar.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/Universal.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/footer.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/blog.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/post.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/categoryposts.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/empty-page.css">
+    <link rel="stylesheet" href="<?= ROOT_URL?>css/manage-categories.css">
     <!-- BOXICONS CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- GOOGLE FONTS ------------>

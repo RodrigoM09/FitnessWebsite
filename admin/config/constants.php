@@ -4,4 +4,7 @@ define('DB_HOST','localhost');
 define('DB_USER','FitApp');
 define('DB_PASS','admin2009');
 define('DB_NAME','FitApp');
+define('DB_PORT', 4307);
+
+
 ?>

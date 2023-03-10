@@ -33,7 +33,7 @@
                     <img src="/images/blog2.png" alt="">
                 </div>
                 <div class="post_info">
-                    <a href="/views/category_posts.php" class="catehory_button">Wild Life Category</a>
+                    <a href="/views/category_posts.php" class="category_button">Wild Life Category</a>
                     <h3 class="post_title">
                         <a href="post.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></h3>
                         <p class="post_body">
@@ -55,7 +55,7 @@
                     <img src="/images/blog3.png" alt="">
                 </div>
                 <div class="post_info">
-                    <a href="/views/category_posts.php" class="catehory_button">Wild Life Category</a>
+                    <a href="/views/category_posts.php" class="category_button">Wild Life Category</a>
                     <h3 class="post_title">
                         <a href="post.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></h3>
                         <p class="post_body">
@@ -77,7 +77,7 @@
                     <img src="/images/blog4.png" alt="">
                 </div>
                 <div class="post_info">
-                    <a href="/views/category_posts.php" class="catehory_button">Wild Life Category</a>
+                    <a href="/views/category_posts.php" class="category_button">Wild Life Category</a>
                     <h3 class="post_title">
                         <a href="post.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></h3>
                         <p class="post_body">
@@ -99,7 +99,7 @@
                     <img src="/images/blog5.png" alt="">
                 </div>
                 <div class="post_info">
-                    <a href="/views/category_posts.php" class="catehory_button">Wild Life Category</a>
+                    <a href="/views/category_posts.php" class="category_button">Wild Life Category</a>
                     <h3 class="post_title">
                         <a href="post.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></h3>
                         <p class="post_body">
