@@ -12,7 +12,7 @@
             <div class="alert_message error">
                 <p>This is an error message</p>
             </div>
-            <form action="" enctype="multipart/form-data">
+            <form action="<?= ROOT_URL?>signup-logic.php" enctype="multipart/form-data">
                 <input type="text" placeholder="First Name">
                 <input type="text" placeholder="Last Name">
                 <input type="text" placeholder="UserName">

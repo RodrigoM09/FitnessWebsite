@@ -1,4 +1,6 @@
-<?php require'../config/database.php' ?>
+<?php 
+require '../config/database.php' 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
