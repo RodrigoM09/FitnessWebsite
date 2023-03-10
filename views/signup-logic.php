@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
         header('location: ' . ROOT_URL . 'views/signup.php');
         die();
     } else {
-        $insert_user_query = "INSERT INTO users set firstname='$firstname', lastname='$lastname', username='$username', email='$email', password='$hash_password', avatar='$avatar_name', is_admin=0";
+        $insert_user_query = "INSERT INTO users set firstname='$firstname', lastname='$lastname', username='$username', email='$email', password='$hash_password', avatar='$avatar_name', admin=0";
         $insert_user_result = mysqli_query($connection, $insert_user_query);
         if(!mysqli_errno($connection)){
             // Redirect to Log in page
