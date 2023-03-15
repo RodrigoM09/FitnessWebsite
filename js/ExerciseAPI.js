@@ -40,13 +40,30 @@ $.ajax(settings).done(function (response) {
     $.ajax(newSettings).done(function (response) {
       console.log(response);
       response.forEach(function (exercise) {
-        $(".exercises").append(`
-                     <div id="results">
-                        <h1 class="bodyPart" value="${exercise}">${exercise.bodyPart}</h1>
-                        <img class="exerciseGif" src="${exercise.gifUrl}"></imgEXTERNAL_FRAGMENT>
-                        <p>${exercise.name}</p>
-                        <p>${exercise.equipment}</p>
-                     </div>
+        $("#posts_container").append(`
+        <article class="post">
+            <div class="post_thumbnail">
+              <img class="exerciseGif" src="${exercise.gifUrl}" alt=""></imgEXTERNAL_FRAGMENT>
+            </div>
+                <div class="post_info">
+                  <a href="" class="category_button bodyPart" value="${exercise}">${exercise.bodyPart}</a>
+                  <h3 class="post_title">
+                  <a href="post.html">${exercise.name}</a>
+                  </h3>
+                  <p class="post_body">
+                    ${exercise.equipment}
+                  </p>
+                  <div class="post_author">
+                    <div class="post_author_avatar">
+                    <img src="/images/avatar3.png" alt="">
+                  </div>
+                  <div class="post_author_info">
+                    <h5>By: Jane Doe</h5>
+                    <small>February 26, 2023 - 5:15</small>
+                  </div>
+                </div>
+              </div>
+        </article>
                 `);
       });
     });
