@@ -7,10 +7,10 @@
 <!------------------------------------NAVBAR PARTIAL----------------------------->
 <!------------------------------------SEARCH BAR -------------------------------->
 <section class="search_bar">
-    <form class="container search_bar_container" action="">
+    <form class="container search_bar_container" id="search_bar_container" action="">
         <div>
             <i class='bx bx-search-alt' ></i>
-            <input type="search" name="" placeholder="search">
+            <input type="search" name="" id="searBar" placeholder="search">
         </div>
         <button type="submit" class="btn">Go</button>
     </form>

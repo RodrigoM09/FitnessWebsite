@@ -1,46 +1,39 @@
-// $(document).ready(function () {
-//     $('.hex-wrap').hover(function() {
-//         let $this = $(this);
-//         let $content = $this.data('content')
-//         $this.append($('.hex-wrap[data-content="$content"]').html($this.data('title')));
-//     });
-// });
+const searchBar = document.getElementById("search_bar_container");
 
-const settings = {
-  async: true,
-  crossDomain: true,
-  url: "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
-  method: "GET",
-  headers: {
-    "X-RapidAPI-Key": "05acdce9e8msh9d6aa2beaf0652fp19ed74jsnee71378443e2",
-    "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-  },
-};
+// const settings = {
+//   async: true,
+//   crossDomain: true,
+//   url: "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
+//   method: "GET",
+//   headers: {
+//     "X-RapidAPI-Key": "05acdce9e8msh9d6aa2beaf0652fp19ed74jsnee71378443e2",
+//     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+//   },
+// };
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-  response.forEach(function (bodyPart) {
-    $("#bodyPart").append(`<option value="${bodyPart}">${bodyPart}</option>`);
-  });
+// $.ajax(settings).done(function (response) {
+//   console.log(response);
+//   response.forEach(function (bodyPart) {
+//     $("#bodyPart").append(`<option value="${bodyPart}">${bodyPart}</option>`);
+//   });
 
-  $("#bodyPart").change(function () {
-    //make api call with dropdown value
-    const newSettings = {
-      async: true,
-      crossDomain: true,
-      url: `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${$(
-        this
-      ).val()}`,
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "05acdce9e8msh9d6aa2beaf0652fp19ed74jsnee71378443e2",
-        "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-      },
-    };
-    $.ajax(newSettings).done(function (response) {
-      console.log(response);
-      response.forEach(function (exercise) {
-        $("#posts_container").append(`
+searchBar.addEventListener("submit", function () {
+  //make api call with dropdown value
+  const newSettings = {
+    async: true,
+    crossDomain: true,
+    url: `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${$(this).val()}`,
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "05acdce9e8msh9d6aa2beaf0652fp19ed74jsnee71378443e2",
+      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+    },
+  };
+
+  $.ajax(newSettings).done(function (response) {
+    console.log(response);
+    response.forEach(function (exercise) {
+      $("#posts_container").append(`
         <article class="post">
             <div class="post_thumbnail">
               <img class="exerciseGif" src="${exercise.gifUrl}" alt=""></imgEXTERNAL_FRAGMENT>
@@ -63,9 +56,8 @@ $.ajax(settings).done(function (response) {
                   </div>
                 </div>
               </div>
-        </article>
+          </article>
                 `);
-      });
     });
   });
 });
