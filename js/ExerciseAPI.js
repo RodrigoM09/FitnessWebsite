@@ -1,3 +1,11 @@
+// $(document).ready(function () {
+//     $('.hex-wrap').hover(function() {
+//         let $this = $(this);
+//         let $content = $this.data('content')
+//         $this.append($('.hex-wrap[data-content="$content"]').html($this.data('title')));
+//     });
+// });
+
 const settings = {
   async: true,
   crossDomain: true,
@@ -12,7 +20,7 @@ const settings = {
 $.ajax(settings).done(function (response) {
   console.log(response);
   response.forEach(function (bodyPart) {
-    $(".bodyPart").append(`<option value="${bodyPart}">${bodyPart}</option>`);
+    $("#bodyPart").append(`<option value="${bodyPart}">${bodyPart}</option>`);
   });
 
   $("#bodyPart").change(function () {
@@ -32,9 +40,14 @@ $.ajax(settings).done(function (response) {
     $.ajax(newSettings).done(function (response) {
       console.log(response);
       response.forEach(function (exercise) {
-        $("#results").append(
-          `<li value="${exercise}">${exercise.bodyPart} <img src="${exercise.gifUrl}"></imgEXTERNAL_FRAGMENT></li>`
-        );
+        $(".exercises").append(`
+                     <div id="results">
+                        <h1 class="bodyPart" value="${exercise}">${exercise.bodyPart}</h1>
+                        <img class="exerciseGif" src="${exercise.gifUrl}"></imgEXTERNAL_FRAGMENT>
+                        <p>${exercise.name}</p>
+                        <p>${exercise.equipment}</p>
+                     </div>
+                `);
       });
     });
   });
