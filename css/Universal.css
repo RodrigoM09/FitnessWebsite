@@ -65,7 +65,7 @@ section {
   width: 100vw;
 }
 
-.section_extra-margin{
+.section_extra-margin {
   margin-top: 7rem;
 }
 
@@ -114,6 +114,11 @@ img {
 
 td {
   color: var(--color-white);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* 

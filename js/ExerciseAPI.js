@@ -17,12 +17,14 @@ const searchBar = document.getElementById("search_bar_container");
 //     $("#bodyPart").append(`<option value="${bodyPart}">${bodyPart}</option>`);
 //   });
 
-searchBar.addEventListener("submit", function () {
+searchBar.addEventListener("submit", function (e) {
   //make api call with dropdown value
+  e.preventDefault();
+  searchBarVal = document.querySelector("#searchBar").value;
   const newSettings = {
     async: true,
     crossDomain: true,
-    url: `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${$(this).val()}`,
+    url: `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${searchBarVal}`,
     method: "GET",
     headers: {
       "X-RapidAPI-Key": "05acdce9e8msh9d6aa2beaf0652fp19ed74jsnee71378443e2",
@@ -33,7 +35,7 @@ searchBar.addEventListener("submit", function () {
   $.ajax(newSettings).done(function (response) {
     console.log(response);
     response.forEach(function (exercise) {
-      $("#posts_container").append(`
+      $("#post_container").append(`
         <article class="post">
             <div class="post_thumbnail">
               <img class="exerciseGif" src="${exercise.gifUrl}" alt=""></imgEXTERNAL_FRAGMENT>
@@ -60,4 +62,25 @@ searchBar.addEventListener("submit", function () {
                 `);
     });
   });
+});
+const numberPerPage = 6;
+var pageNumber = 1;
+var numberOfPages = 30;
+
+const prev = document.querySelector(".previous");
+prev.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (pageNumber > 1) {
+    pageNumber--;
+    fetchPosts(pageNumber);
+  }
+});
+
+const next = document.querySelector(".next");
+next.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (pageNumber < numberOfPages) {
+        pageNumber++;
+        fetchPosts(pageNumber);
+    }
 });
